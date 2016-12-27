@@ -1,0 +1,9 @@
+CACHE MANIFEST
+v1.0.0
+CACHE:
+a.css
+http://4493bz.1985t.com/uploads/allimg/150127/4-15012G52133.jpg
+NETWORK:
+*
+FALLBACK:
+*.html 404.html

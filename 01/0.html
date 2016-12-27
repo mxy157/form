@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" manifest="test.manifest">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    <div id="con">从单位签订为期请问却无法侧缝</div>
+    <img src="http://4493bz.1985t.com/uploads/allimg/150127/4-15012G52133.jpg" alt="">
+</body>
+<script type="text/javascript">
+    applicationCache.update();//检测 manifest文件
+
+    window.applicationCache.addEventListener('updateready',function () {//检测更新完成
+      window.applicationCache.swapCache();//更新缓存区域内容
+  },false)
+
+  window.applicationCache.addEventListener('pogress',function () {
+      console.log(applicationCache.statuss);
+  })
+</script>
+</html>
